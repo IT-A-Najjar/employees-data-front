@@ -53,10 +53,6 @@ export default function Home() {
           SubordinateUnits: "",
           TrackingUnits: "",
           Objective: "",
-          tasks: [{
-            Description: "",
-          }
-          ],
         });
     } catch (error) {
       console.error("Error adding organization unit:", error);
